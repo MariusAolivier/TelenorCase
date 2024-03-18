@@ -30,7 +30,6 @@ import SupportIcon from './icons/IconSupport.vue'
     Vi har alt fra sokker til matbokser! Eller kan vi friste med en snøkule?
     <br>
     <br>
-        <!-- Knapp for å se på hettegenseren -->
     <a href="../src/images/snowglobe.png" class="button">Se snowglobe</a>
     
 
@@ -46,8 +45,7 @@ import SupportIcon from './icons/IconSupport.vue'
     <br>
     ♥Hoodie with a lifechanging quote♥
     <br>
-        <!-- Knapp for å se på hettegenseren -->
-    <a href="../src/images/hoodie.jpg" class="button">Se Hettegenseren</a>
+    <a href="../src/images/hoodie.jpg" class="button">Se hoodie</a>
   </WelcomeItem>
 
   <WelcomeItem>
