@@ -39,7 +39,6 @@ import SupportIcon from './icons/IconSupport.vue'
 
     Prøv vår bestselger!
     <br>
-    <img src="telenorcase/src/images/hoodie.png" alt="Hoodie with a lifechanging quote">
     ♥Hoodie with a lifechanging quote♥
   </WelcomeItem>
 
