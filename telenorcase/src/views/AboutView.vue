@@ -1,20 +1,33 @@
 <template>
-  <div class="image-grid">
-    <img src="../images/buckethat.jpg" alt="Description of Image 1">
-    <img src="../images/lunchbox.png" alt="Description of Image 3">
-    <img src="../images/cup.png" alt="Description of Image 4">
-    <img src="../images/totebag.jpg" alt="Description of Image 5">
-    <img src="../images/phonecover.png" alt="Description of Image 6">
-    <img src="../images/snowglobe.png" alt="Description of Image 7">
-    <img src="../images/bunny-torstein.png" alt="Description of Image 8">
-    <img src="../images/bunny-marius.png" alt="Description of Image 9">
-    <img src="../images/cards-kayak.png" alt="Description of Image 10">
-    <img src="../images/socks.jpg" alt="Description of Image 11">
-    <img src="../images/tshirt.jpg" alt="Description of Image 12">
+  <div>
+    <nav class="navbar">
+    </nav>
+    <div class="image-grid">
+      <img src="../images/hoodie.jpg" alt="Hoodie">
+      <img src="../images/tshirt.jpg" alt="Tshirt">
+      <img src="../images/buckethat.jpg" alt="Buckethat">
+      <img src="../images/lunchbox.png" alt="Lunchbox">
+      <img src="../images/cup.png" alt="Cup">
+      <img src="../images/totebag.jpg" alt="Totebag">
+      <img src="../images/phonecover.png" alt="Phonecover">
+      <img src="../images/snowglobe.png" alt="Snowglobe">
+    </div>
   </div>
 </template>
 
 <style>
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch; /* Alle bilder vil ha samme høyde */
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  /* Om du ønsker å sette en fast høyde, kan du gjøre det her, f.eks. height: 200px; */
+}
+
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;

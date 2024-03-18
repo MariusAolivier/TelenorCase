@@ -39,6 +39,7 @@ import SupportIcon from './icons/IconSupport.vue'
 
     Prøv vår bestselger!
     <br>
+    ♥Hoodie with a lifechanging quote♥
   </WelcomeItem>
 
   <WelcomeItem>
