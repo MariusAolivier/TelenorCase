@@ -28,6 +28,11 @@ import SupportIcon from './icons/IconSupport.vue'
     Hva slags produkter er du ute etter i dag?
     <br>
     Vi har alt fra sokker til matbokser! Eller kan vi friste med en snøkule?
+    <br>
+    <br>
+        <!-- Knapp for å se på hettegenseren -->
+    <a href="../src/images/snowglobe.png" class="button">Se snowglobe</a>
+    
 
   </WelcomeItem>
 
@@ -40,6 +45,9 @@ import SupportIcon from './icons/IconSupport.vue'
     Prøv vår bestselger!
     <br>
     ♥Hoodie with a lifechanging quote♥
+    <br>
+        <!-- Knapp for å se på hettegenseren -->
+    <a href="../src/images/hoodie.jpg" class="button">Se Hettegenseren</a>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -60,3 +68,20 @@ import SupportIcon from './icons/IconSupport.vue'
     ♥Hilsen gruppe 2. data♥
   </WelcomeItem>
 </template>
+
+<style>
+/* Stil for knappen */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Farge kan endres */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px; /* Juster etter behov */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Endre farge ved hover om ønskelig */
+}
+</style>
