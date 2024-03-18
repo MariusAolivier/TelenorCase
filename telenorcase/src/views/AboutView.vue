@@ -11,6 +11,7 @@
       <img src="../images/totebag.jpg" alt="Totebag">
       <img src="../images/phonecover.png" alt="Phonecover">
       <img src="../images/snowglobe.png" alt="Snowglobe">
+      <img src="../images/socks.jpg" alt="socks">
     </div>
   </div>
 </template>
